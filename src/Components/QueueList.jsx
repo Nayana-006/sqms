@@ -4,7 +4,7 @@ const QueueList = () => {
   const [queues, setQueues] = useState([]);
   const [name, setName] = useState("");
 
-const BASE_URL = "https://sqms-backend.onrender.com/api/queue";
+const BASE_URL = "https://sqms-backend-3.onrender.com/api/queue";
   // Fetch all queues
   const fetchQueues = async () => {
     try {

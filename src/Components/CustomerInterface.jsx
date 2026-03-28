@@ -7,7 +7,7 @@ const CustomerInterface = () => {
   const [error, setError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-const BASE_URL = "https://sqms-backend.onrender.com/api/queue";
+const BASE_URL = "https://sqms-backend-3.onrender.com/api/queue";
   // Join queue
   const joinQueue = async () => {
     if (!name.trim()) {
