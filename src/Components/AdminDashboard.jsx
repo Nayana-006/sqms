@@ -13,8 +13,7 @@ const AdminDashboard = () => {
   const [error, setError] = useState("");
   const [isRefreshing, setIsRefreshing] = useState(false);
 
-  const BASE_URL = "http://localhost:8080/api/queue";
-
+const BASE_URL = "https://sqms-backend.onrender.com/api/queue";
   // Fetch all queues
   const fetchQueues = async () => {
     setIsRefreshing(true);

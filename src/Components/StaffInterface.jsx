@@ -6,8 +6,7 @@ const StaffInterface = () => {
   const [error, setError] = useState("");
   const [isCalling, setIsCalling] = useState(false);
 
-  const BASE_URL = "http://localhost:8080/api/queue";
-
+const BASE_URL = "https://sqms-backend.onrender.com/api/queue";
   // Fetch all queues
   const fetchQueues = async () => {
     try {

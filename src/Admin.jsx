@@ -4,8 +4,7 @@ const Admin = ({ goBack }) => {
   const [queues, setQueues] = useState([]);
   const [error, setError] = useState("");
 
-  const BASE_URL = "http://localhost:8080/api/queue";
-
+const BASE_URL = "https://sqms-backend.onrender.com/api/queue";
   const fetchQueues = async () => {
     try {
       setError("");
